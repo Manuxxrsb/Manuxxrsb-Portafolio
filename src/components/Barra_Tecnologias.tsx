@@ -3,10 +3,11 @@ import { FaReact, FaHtml5, FaGolang } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaCss3Alt } from "react-icons/fa";
 import { SiVite, SiTypescript } from "react-icons/si";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { RiTailwindCssFill, RiSupabaseFill } from "react-icons/ri";
 import { FaPython } from "react-icons/fa";
+import { BiLogoPostgresql } from "react-icons/bi";
 
-function Barra_Tecnologias() {
+const Barra_Tecnologias = () => {
   return (
     <>
       <div>
@@ -72,6 +73,20 @@ function Barra_Tecnologias() {
             <FaPython size="100" color="yellow" />
             <h2 className="text-yellow-50">PYTHON</h2>
           </li>
+          <li className="border-2 border-green-400 rounded-xl p-2 hover:scale-105 hover:transition-all cursor-pointer w-32 justify-items-center bg-white mb-4 md:mb-0 shadow-md">
+            <img
+              src="https://img.icons8.com/fluency/240/c-programming.png"
+              alt="Lenguaje C"
+            />
+            <h2 className="text-black-500">C</h2>
+          </li>
+          <li className="border-2 border-green-400 rounded-xl p-2 hover:scale-105 hover:transition-all cursor-pointer w-32 justify-items-center bg-white mb-4 md:mb-0 shadow-md">
+            <img
+              src="https://img.icons8.com/color/480/c-plus-plus-logo.png"
+              alt="Lenguaje C++"
+            />
+            <h2 className="text-black-500">C++</h2>
+          </li>
         </ul>
         <div className="flex flex-col md:flex-row justify-center border-white border-2 bg-orange-300 m-4 rounded-md">
           <TerminalIcon
@@ -83,10 +98,19 @@ function Barra_Tecnologias() {
             Base de Datos
           </h2>
         </div>
-        <ul className="border-2 border-red-300 p-4 m-6 flex flex-col md:flex-row justify-between shadow-lg rounded-md"></ul>
+        <ul className="border-2 border-red-300 p-4 m-6 flex flex-col md:flex-row justify-between shadow-lg rounded-md">
+          <li className="border-2 border-green-400 rounded-xl p-2 hover:scale-105 hover:transition-all cursor-pointer w-32 justify-items-center bg-white mb-4 md:mb-0 shadow-md">
+            <BiLogoPostgresql size="100" color="blue" />
+            <h2>POSTGRESQL</h2>
+          </li>
+          <li className="border-2 border-green-400 rounded-xl p-2 hover:scale-105 hover:transition-all cursor-pointer w-32 justify-items-center bg-white mb-4 md:mb-0 shadow-md">
+            <RiSupabaseFill size="100" color="green" />
+            <h2>SUPABASE</h2>
+          </li>
+        </ul>
       </div>
     </>
   );
-}
+};
 
 export default Barra_Tecnologias;
