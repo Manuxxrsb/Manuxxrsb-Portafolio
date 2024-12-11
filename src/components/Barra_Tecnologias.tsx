@@ -22,7 +22,7 @@ const Barra_Tecnologias = () => {
           </h2>
         </div>
 
-        <ul className="border-2 border-red-300 p-4 m-6 flex flex-col md:flex-row justify-between shadow-lg rounded-md">
+        <ul className="border-2 border-red-300 p-4 m-6 flex flex-col md:flex-row flex-wrap justify-between shadow-lg rounded-md">
           <li className="border-2 border-green-400 rounded-xl p-2 hover:scale-105 hover:transition-all cursor-pointer w-32 justify-items-center bg-white mb-4 md:mb-0 shadow-md">
             <FaHtml5 size="100" color="orange" />
 
@@ -64,7 +64,7 @@ const Barra_Tecnologias = () => {
             BackEnd
           </h2>
         </div>
-        <ul className="border-2 border-red-300 p-4 m-6 flex flex-col md:flex-row justify-between shadow-lg rounded-md">
+        <ul className="border-2 border-red-300 p-4 m-6 flex flex-col md:flex-row flex-wrap justify-between shadow-lg rounded-md">
           <li className="border-2 border-green-400 rounded-xl p-2 hover:scale-105 hover:transition-all cursor-pointer w-32 justify-items-center bg-white mb-4 md:mb-0 shadow-md">
             <FaGolang size="100" color="skyblue" />
             <h2>GO</h2>
@@ -98,7 +98,7 @@ const Barra_Tecnologias = () => {
             Base de Datos
           </h2>
         </div>
-        <ul className="border-2 border-red-300 p-4 m-6 flex flex-col md:flex-row justify-between shadow-lg rounded-md">
+        <ul className="border-2 border-red-300 p-4 m-6 flex flex-col md:flex-row flex-wrap justify-between shadow-lg rounded-md">
           <li className="border-2 border-green-400 rounded-xl p-2 hover:scale-105 hover:transition-all cursor-pointer w-32 justify-items-center bg-white mb-4 md:mb-0 shadow-md">
             <BiLogoPostgresql size="100" color="blue" />
             <h2>POSTGRESQL</h2>

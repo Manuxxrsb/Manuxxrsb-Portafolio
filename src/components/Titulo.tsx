@@ -1,6 +1,6 @@
 interface TituloProps {
   texto: string;
-  edad: number;
+  edad?: number; //El signo de interrogacion indica que es opcional
 }
 
 const Titulo = (contenido: TituloProps) => {
