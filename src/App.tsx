@@ -5,7 +5,7 @@ import About_me from "./components/About_me";
 function App() {
   return (
     <>
-      <Titulo />
+      <Titulo texto="Manuel Developer Page" edad={34} />
       <About_me />
       <Barra_Tecnologias />
     </>
