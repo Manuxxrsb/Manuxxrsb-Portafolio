@@ -25,7 +25,7 @@ const GitHubProjects: React.FC = () => {
             className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
           >
             <img
-              src={`https://www.github.com/manuxxrsb/${repo.name}/tree/main/public/image.png`}
+              src={`https://github.com/Manuxxrsb/${repo.name}/blob/main/public/image.png`}
               alt={`${repo.name}`}
             />
 
