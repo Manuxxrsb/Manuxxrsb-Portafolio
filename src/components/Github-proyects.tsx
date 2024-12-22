@@ -22,20 +22,21 @@ const GitHubProjects: React.FC = () => {
         {repos.map((repo) => (
           <div
             key={repo.name}
-            className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+            className="bg-white m-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4"
           >
             <img
               src={`https://raw.githubusercontent.com/manuxxrsb/${repo.name}/main/image.png`}
               alt={`${repo.name}`}
+              className="max-h-40 w-full object-cover object-center rounded-t-lg"
             />
 
-            <h3 className="text-xl font-semibold mb-2">{repo.name}</h3>
-            <p className="text-gray-700 mb-4">{repo.description}</p>
+            <h3 className="text-xl font-semibold m-6 mb-2">{repo.name}</h3>
+            <p className="text-gray-700 m-6 mb-4">{repo.description}</p>
             <a
               href={repo.html_url}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-500 hover:underline"
+              className="text-blue-500 m-6 hover:underline"
             >
               Ver en GitHub
             </a>
