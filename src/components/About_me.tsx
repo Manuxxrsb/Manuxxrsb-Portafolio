@@ -2,7 +2,7 @@ const About_me = () => {
   return (
     <section>
       <img
-        src="public/image-perfil.png" // Asegúrate de que esta ruta sea correcta
+        src="dist/image-perfil.png" // Asegúrate de que esta ruta sea correcta
         alt="Mi imagen"
         className="mx-auto rounded-lg w-50 h-50 shadow-2xl m-8"
       />
