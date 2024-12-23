@@ -17,7 +17,10 @@ const GitHubProjects: React.FC = () => {
 
   return (
     <section className="mt-36">
-      <h2 className="text-2xl font-bold m-6">Proyectos de GitHub</h2>
+      <h2 className="text-7xl font-bold items-center text-center mb-12">
+        <span className="text-orange-500">Proyectos</span> de{" "}
+        <span className="text-orange-500">GitHub</span>
+      </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {repos.map((repo) => (
           <div

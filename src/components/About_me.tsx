@@ -1,12 +1,17 @@
 const About_me = () => {
   return (
     <section className="mt-36">
+      <h1 className="text-7xl font-bold items-center text-center mb-12">
+        Sobre mi
+      </h1>
+
       <img
         src="image-perfil.png"
         alt="Mi imagen"
         className="mx-auto rounded-lg w-50 h-50 shadow-2xl shadow-orange-200 m-8"
       />
       <h1 className="text-center font-bold text-3xl m-4">Sobre mi</h1>
+
       <div className="text-center m-14 shadow-md shadow-orange-200 rounded-md">
         <p>
           Mi nombre es Manuel, y soy un programador en constante crecimiento,
