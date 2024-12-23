@@ -37,7 +37,6 @@ const Barra_Tecnologias = () => {
         <h1 className="text-7xl font-bold items-center text-center mb-12">
           Tecnologias
         </h1>
-
         <div className="flex flex-row md:flex-row justify-center border-white  bg-orange-300 m-4 shadow-md shadow-orange-200 rounded-md to-transparent">
           <IoBrushOutline
             size="36"
@@ -200,6 +199,7 @@ const Barra_Tecnologias = () => {
             <h2>VITE</h2>
           </li>
         </ul>
+        º
       </div>
     </>
   );
