@@ -3,12 +3,11 @@ const About_me = () => {
     <section className="mt-36">
       <img
         src="image-perfil.png"
-
         alt="Mi imagen"
-        className="mx-auto rounded-lg w-50 h-50 shadow-2xl m-8"
+        className="mx-auto rounded-lg w-50 h-50 shadow-2xl shadow-orange-200 m-8"
       />
-      <h1 className="text-center font-bold text-3xl">Sobre mi</h1>
-      <div className="text-center m-20 shadow-md rounded-md">
+      <h1 className="text-center font-bold text-3xl m-4">Sobre mi</h1>
+      <div className="text-center m-14 shadow-md shadow-orange-200 rounded-md">
         <p>
           Mi nombre es Manuel, y soy un programador en constante crecimiento,
           apasionado por transformar ideas en soluciones tecnológicas que
@@ -17,7 +16,7 @@ const About_me = () => {
           permitan evolucionar tanto profesional como personalmente.
         </p>
       </div>
-      <div className="text-center m-20 shadow-md rounded-md">
+      <div className="text-center m-14 shadow-md shadow-orange-200 rounded-md">
         <p>
           Desde mis primeros pasos en el mundo de la programación, he encontrado
           en el código una forma de expresión creativa. Para mí, cada proyecto
@@ -28,7 +27,7 @@ const About_me = () => {
           adelante en un sector en constante cambio
         </p>
       </div>
-      <div className="text-center m-20 shadow-md rounded-md">
+      <div className="text-center m-14 shadow-md shadow-orange-200 rounded-md">
         <p>
           Creo firmemente que la creatividad es el motor que impulsa las
           soluciones más impactantes. En mi trabajo, combino el análisis lógico

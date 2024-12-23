@@ -22,7 +22,7 @@ const GitHubProjects: React.FC = () => {
         {repos.map((repo) => (
           <div
             key={repo.name}
-            className="bg-white m-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4"
+            className="bg-white m-6 rounded-lg shadow-md shadow-orange-200 hover:shadow-lg hover:shadow-orange-200 transition-shadow duration-300 p-4 "
           >
             <img
               src={`https://raw.githubusercontent.com/manuxxrsb/${repo.name}/main/image.png`}
