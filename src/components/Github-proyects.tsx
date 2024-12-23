@@ -16,13 +16,13 @@ const GitHubProjects: React.FC = () => {
   }, []);
 
   return (
-    <section>
-      <h2 className="text-2xl font-bold mb-4">Proyectos de GitHub</h2>
+    <section className="mt-36">
+      <h2 className="text-2xl font-bold m-6">Proyectos de GitHub</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {repos.map((repo) => (
           <div
             key={repo.name}
-            className="bg-white m-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4"
+            className="bg-white m-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4"
           >
             <img
               src={`https://raw.githubusercontent.com/manuxxrsb/${repo.name}/main/image.png`}
