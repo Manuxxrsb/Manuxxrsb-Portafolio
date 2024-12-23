@@ -1,12 +1,13 @@
-import { TerminalIcon } from "lucide-react";
 import {
   FaReact,
   FaHtml5,
   FaGolang,
   FaGitAlt,
   FaNodeJs,
+  FaFileCode,
 } from "react-icons/fa6";
 import {
+  IoBrushOutline,
   IoLogoFirebase,
   IoLogoJavascript,
   IoLogoVercel,
@@ -26,16 +27,18 @@ import { BiLogoPostgresql, BiCloud } from "react-icons/bi"; // Importar el ícon
 import { AiOutlineKubernetes } from "react-icons/ai";
 import { GrMysql } from "react-icons/gr";
 import { CiCloudOn } from "react-icons/ci";
+import { FiDatabase } from "react-icons/fi";
+import { LiaToolsSolid } from "react-icons/lia";
 
 const Barra_Tecnologias = () => {
   return (
     <>
       <div className="mt-36">
-        <div className="flex flex-col md:flex-row justify-center border-white  bg-orange-300 m-4 shadow-md shadow-orange-200 rounded-md to-transparent">
-          <TerminalIcon
-            size="32"
+        <div className="flex flex-row md:flex-row justify-center border-white  bg-orange-300 m-4 shadow-md shadow-orange-200 rounded-md to-transparent">
+          <IoBrushOutline
+            size="36"
             color="white"
-            className="mt-3 bg-slate-600 rounded-md"
+            className="mt-5 p-1 bg-slate-600 rounded-md"
           />
           <h2 className="font-bold m-4 text-3xl text-center md:text-left">
             FrontEnd
@@ -68,10 +71,10 @@ const Barra_Tecnologias = () => {
           </li>
         </ul>
         <div className="flex flex-col md:flex-row justify-center border-white  bg-orange-300 m-4 shadow-md shadow-orange-200 rounded-md to-transparent">
-          <TerminalIcon
-            size="32"
+          <FaFileCode
+            size="36"
             color="white"
-            className="mt-3 bg-slate-600 rounded-md"
+            className="mt-5 p-1 bg-slate-600 rounded-md"
           />
           <h2 className="font-bold m-4 text-3xl text-center md:text-left">
             BackEnd
@@ -110,10 +113,10 @@ const Barra_Tecnologias = () => {
           </li>
         </ul>
         <div className="flex flex-col md:flex-row justify-center border-white  bg-orange-300 m-4 rounded-md">
-          <TerminalIcon
-            size="32"
+          <FiDatabase
+            size="36"
             color="white"
-            className="mt-3 bg-slate-600 rounded-md"
+            className="mt-5 p-1 bg-slate-600 rounded-md"
           />
           <h2 className="font-bold m-4 text-3xl text-center md:text-left">
             Base de Datos
@@ -135,9 +138,9 @@ const Barra_Tecnologias = () => {
         </ul>
         <div className="flex flex-col md:flex-row justify-center border-white  bg-orange-300 m-4 shadow-md shadow-orange-200 rounded-md to-transparent">
           <BiCloud
-            size="32"
+            size="36"
             color="white"
-            className="mt-3 bg-slate-600 rounded-md"
+            className="mt-5 p-1 bg-slate-600 rounded-md"
           />
           <h2 className="font-bold m-4 text-3xl text-center md:text-left">
             Cloud
@@ -158,10 +161,10 @@ const Barra_Tecnologias = () => {
           </li>
         </ul>
         <div className="flex flex-col md:flex-row justify-center border-white  bg-orange-300 m-4 rounded-md">
-          <TerminalIcon
-            size="32"
+          <LiaToolsSolid
+            size="36"
             color="white"
-            className="mt-3 bg-slate-600 rounded-md"
+            className="mt-5 p-1 bg-slate-600 rounded-md"
           />
           <h2 className="font-bold m-4 text-3xl text-center md:text-left">
             Heramientas
