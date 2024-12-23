@@ -3,6 +3,7 @@ const About_me = () => {
     <section className="mt-36">
       <img
         src="image-perfil.png"
+
         alt="Mi imagen"
         className="mx-auto rounded-lg w-50 h-50 shadow-2xl m-8"
       />
