@@ -30,7 +30,7 @@ import { GrMysql } from "react-icons/gr";
 const Barra_Tecnologias = () => {
   return (
     <>
-      <div>
+      <div className="mt-36">
         <div className="flex flex-col md:flex-row justify-center border-white border-2 bg-orange-300 m-4 rounded-md to-transparent">
           <TerminalIcon
             size="32"

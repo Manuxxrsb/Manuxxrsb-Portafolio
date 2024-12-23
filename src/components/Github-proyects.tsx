@@ -16,7 +16,7 @@ const GitHubProjects: React.FC = () => {
   }, []);
 
   return (
-    <section>
+    <section className="mt-36">
       <h2 className="text-2xl font-bold mb-4">Proyectos de GitHub</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {repos.map((repo) => (
