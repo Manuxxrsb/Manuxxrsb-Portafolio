@@ -15,7 +15,6 @@ import { FaCss3Alt } from "react-icons/fa";
 import {
   SiVite,
   SiTypescript,
-  SiGooglecloud,
   SiNestjs,
   SiPostman,
   SiGithubactions,
@@ -26,6 +25,7 @@ import { FaPython } from "react-icons/fa";
 import { BiLogoPostgresql, BiCloud } from "react-icons/bi"; // Importar el ícono de la nube
 import { AiOutlineKubernetes } from "react-icons/ai";
 import { GrMysql } from "react-icons/gr";
+import { CiCloudOn } from "react-icons/ci";
 
 const Barra_Tecnologias = () => {
   return (
@@ -58,9 +58,9 @@ const Barra_Tecnologias = () => {
             <IoLogoJavascript size="100" color="yellow" />
             <h2>JAVASCRIPT</h2>
           </li>
-          <li className="  rounded-xl mx-2 py-2 hover:scale-105 hover:transition-all cursor-pointer w-32 hover:shadow-lg hover:shadow-orange-200 shadow-orange-200 justify-items-center bg-slate-600 mb-4 md:mb-0 shadow-md shadow-or">
+          <li className="  rounded-xl mx-2 py-2 hover:scale-105 hover:transition-all cursor-pointer w-32 hover:shadow-lg hover:shadow-orange-200 shadow-orange-200 justify-items-center  mb-4 md:mb-0 shadow-md shadow-or">
             <FaReact size="100" color="skyblue" />
-            <h2 className="text-sky-400">REACT</h2>
+            <h2>REACT</h2>
           </li>
           <li className="  rounded-xl mx-2 py-2 hover:scale-105 hover:transition-all cursor-pointer w-32 hover:shadow-lg hover:shadow-orange-200 shadow-orange-200 justify-items-center bg-whithe mb-4 md:mb-0 shadow-md shadow-or">
             <SiTypescript size="100" color="blue" />
@@ -90,9 +90,9 @@ const Barra_Tecnologias = () => {
             <FaNodeJs size="100" color="green" />
             <h2>Node.js</h2>
           </li>
-          <li className="  rounded-xl mx-2 py-2 hover:scale-105 hover:transition-all cursor-pointer w-32 hover:shadow-lg hover:shadow-orange-200 shadow-orange-200 justify-items-center bg-slate-600 mb-4 md:mb-0 shadow-md shadow-or">
+          <li className="  rounded-xl mx-2 py-2 hover:scale-105 hover:transition-all cursor-pointer w-32 hover:shadow-lg hover:shadow-orange-200 shadow-orange-200 justify-items-center  mb-4 md:mb-0 shadow-md shadow-or">
             <FaPython size="100" color="yellow" />
-            <h2 className="text-yellow-50">PYTHON</h2>
+            <h2>PYTHON</h2>
           </li>
           <li className="  rounded-xl mx-2 py-2 hover:scale-105 hover:transition-all cursor-pointer w-32 hover:shadow-lg hover:shadow-orange-200 shadow-orange-200 justify-items-center bg-white mb-4 md:mb-0 shadow-md shadow-or">
             <img
@@ -149,7 +149,7 @@ const Barra_Tecnologias = () => {
             <h2>Firebase</h2>
           </li>
           <li className="  rounded-xl mx-2 py-2 hover:scale-105 hover:transition-all cursor-pointer w-32 hover:shadow-lg hover:shadow-orange-200 shadow-orange-200 justify-items-center bg-white mb-4 md:mb-0 shadow-md shadow-or">
-            <SiGooglecloud size="100" color="skyblue" />
+            <CiCloudOn size="100" color="blue" />
             <h2>GCP</h2>
           </li>
           <li className="  rounded-xl mx-2 py-2 hover:scale-105 hover:transition-all cursor-pointer w-32 hover:shadow-lg hover:shadow-orange-200 shadow-orange-200 justify-items-center bg-white mb-4 md:mb-0 shadow-md shadow-or">
@@ -188,9 +188,9 @@ const Barra_Tecnologias = () => {
             <SiFastapi size="100" color="skyblue" />
             <h2>FastAPI</h2>
           </li>
-          <li className="  rounded-xl mx-2 py-2 hover:scale-105 hover:transition-all cursor-pointer w-32 hover:shadow-lg hover:shadow-orange-200 shadow-orange-200 justify-items-center bg-violet-900 mb-4 md:mb-0 shadow-md shadow-or">
-            <SiVite size="100" color="yellow" />
-            <h2 className="text-yellow-300">VITE</h2>
+          <li className="  rounded-xl mx-2 py-2 hover:scale-105 hover:transition-all cursor-pointer w-32 hover:shadow-lg hover:shadow-orange-200 shadow-orange-200 justify-items-center  mb-4 md:mb-0 shadow-md shadow-or">
+            <SiVite size="100" color="purple" />
+            <h2>VITE</h2>
           </li>
         </ul>
       </div>
