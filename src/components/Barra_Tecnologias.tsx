@@ -33,7 +33,11 @@ import { LiaToolsSolid } from "react-icons/lia";
 const Barra_Tecnologias = () => {
   return (
     <>
-      <div className="mt-36">
+      <div className="mt-36 items-center">
+        <h1 className="text-7xl font-bold items-center text-center mb-12">
+          Tecnologias
+        </h1>
+
         <div className="flex flex-row md:flex-row justify-center border-white  bg-orange-300 m-4 shadow-md shadow-orange-200 rounded-md to-transparent">
           <IoBrushOutline
             size="36"
