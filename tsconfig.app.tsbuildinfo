@@ -6,8 +6,9 @@
     "./src/vite-env.d.ts",
     "./src/components/about_me.tsx",
     "./src/components/barra_tecnologias.tsx",
-    "./src/components/header.tsx",
-    "./src/components/proyectos.tsx",
+    "./src/components/github-proyects.tsx",
+    "./src/components/home.tsx",
+    "./src/components/navbar.tsx",
     "./src/components/titulo.tsx"
   ],
   "version": "5.6.2"
